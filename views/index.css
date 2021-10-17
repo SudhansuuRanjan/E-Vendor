@@ -445,3 +445,10 @@ input{
         flex-direction: column;
     }
 }
+.buy-btn-final{
+    margin:auto;
+    align-items: center;
+    text-align: center;
+    box-shadow: none;
+    padding-top: 3rem;
+}
