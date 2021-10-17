@@ -31,7 +31,12 @@ Thinking about this problem, we introduced the idea of this touchless vending ma
 - First login in the E-Vendor console by entering your credentials.
 - After completing first step, go to the product you want to buy,select the product, then proceed to checkout and pay through your registered account.
 - Once a product dispatch is succesfull, the vending machine will produce a beep sound. 
-
+<br>
+<p align = "center">
+<img src="https://github.com/Harshkumar62367/E-Vendor/blob/main/E_%20Vendor%20images/image%203.jpeg"  style="width:800px; 
+            height:450px; 
+            display: block;" />
+</p>
 <br>
 
 ## Technical Concept behind E-Vendor:
