@@ -406,3 +406,42 @@ input{
 .foot-mid{
     color:white;
 }
+.text{
+    text-align: center;
+}
+.buy-btn-final{
+    margin: auto;
+    margin-top:2rem;
+}
+.cursive{
+    z-index: 1;
+}
+.part-2-head{
+    font-size: 1.7rem;
+}
+.get-started2{
+    box-shadow: none;
+    margin: 2rem;
+}
+.fa-shopping-basket{
+    color:#5dfa35;
+}
+.fa-shield-alt{
+    color: skyblue;
+}
+@media (max-width:800px) {
+    .feature-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .upper{
+        flex-direction: column;
+       
+    }
+    .svg-text,.left-image{
+        margin: 1rem;
+    }
+    .lower{
+        flex-direction: column;
+    }
+}

@@ -7,7 +7,7 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <script src="https://kit.fontawesome.com/9d4449454b.js" crossorigin="anonymous"></script>
-        <link rel="stylesheet" href="CSS/index.css">
+        <link rel="stylesheet" href="index.css">
         <link href="https://fonts.googleapis.com/css2?family=Poppins" rel="stylesheet">
     </head>
     <body>
@@ -19,7 +19,7 @@
                 <div class="form">
                     <form>
                     <input type="text" class="text_box" placeholder="Enter your full name">
-               <a href="main.html" class="submit">Submit</a>  
+               <a href="" class="submit">Submit</a>  
                 </form>
                 </div>
             </div>
@@ -35,17 +35,17 @@
                <div class="get-started-container">
                    <a href="#home" class="nav-item">Home</a>
                     <a href="#about" class="nav-item">About</a>
-                    <a href="/" class="nav-item">How to use</a>
-                    <a href="/" class="nav-item">Products</a>
+                    <a href="#features" class="nav-item">Features</a>
+                    <a href="/app" class="nav-item">Products</a>
                    <div class="btn-cont"> <button class="bttn" onclick="ShowPopup()">Get Started</button></div>
                </div>
                <div class="mob-screen">
                    <i class="fas fa-times" onclick="removeClass()"></i>
-                   <a href="#" class="nav-item-mob">Home</a>
-                    <a href="#" class="nav-item-mob">About</a>
-                    <a href="/" class="nav-item-mob">How to use</a>
-                    <a href="/" class="nav-item-mob">Products</a>
-                   <div class="btn-cont-mob"> <button class="bttn" onclick="ShowPopup()">Get Started</button></div>
+                   <a href="#home" class="nav-item-mob" onclick="removeClass()">Home</a>
+                    <a href="#about" class="nav-item-mob" onclick="removeClass()">About</a>
+                    <a href="#features" class="nav-item-mob" onclick="removeClass()">Features</a>
+                    <a href="/app" class="nav-item-mob" onclick="removeClass()">Products</a>
+                   <div class="btn-cont-mob"> <button onclick="removeClass()" class="bttn">Get Started</button></div>
                </div>
             </nav>
         <div class="herobody">
@@ -53,9 +53,10 @@
             <h1 class="cursive">E-Commerce</h1>
             <h1 class="bold">Connect.<br/>Bond.Grow.</h1>
             <div class="hero-text-cont"><p class="hero-text">
-                The most unified ecommerce platform for order managememt and recurring billing to build lasting costomer bonds.
+                E-Vendor is a vending machine that runs on NodeMCU.
+                It serves one touch vending of produch with online payment mechanism.
             </p></div>
-            <div class="btn-cont1"> <button class="btn get-started">Get Started and get 50 Credits free</button></div>
+            <div class="btn-cont1"><a href="/app"> <button class="btn get-started">Get Started</button></a></div>
  
         </div>
         <div class="hero-left">
@@ -68,40 +69,44 @@
         <section class="features-section" id="about">
             <h1 class="cursive feature-section-cursive">E-Commerce</h1>
             <div class="head2-container">
-                <h1 class="part-2-head">Create a customer relationships that last forever ---</h1>
+                <h1 class="part-2-head">Read more about E-Vendor <a href="https://github.com/SudhansuuRanjan/E-Vendor#readme">here</a></h1>
             </div>
             <div class="features">
                 <div class="feature">
                     <div class="feature-icon">
-                         <i class="fas fa-store-alt feature-icons"></i>
+                         <i class="fas fa-shield-alt feature-icons"></i>
                     </div>
-                    <h3 class="feature-text">Improved Lifetime value</h3>
+                    <h3 class="feature-text">Safety
+</h3>
                     <p class="feature-about">
-                        Sell how your customers want to buy with infinite order and checkout flexibility.
+                        No Contact Shopping , reduced chances of getting Covid-19
+                    </p>
+                </div>
+                <div class="feature">
+                    <div class="feature-icon">
+                         <i class="fas fa-shopping-basket feature-icons"></i>
+                    </div>
+                    <h3 class="feature-text">Transparency</h3>
+                    <p class="feature-about">
+                       Supports all types of debit and credit cards. Instant Receipt through EMail.
+
                     </p>
                 </div>
                 <div class="feature">
                     <div class="feature-icon">
                          <i class="fas fa-store-alt feature-icons"></i>
                     </div>
-                    <h3 class="feature-text">Improved Lifetime value</h3>
+                    <h3 class="feature-text">Accessibility
+</h3>
                     <p class="feature-about">
-                        Sell how your customers want to buy with infinite order and checkout flexibility.
-                    </p>
-                </div>
-                <div class="feature">
-                    <div class="feature-icon">
-                         <i class="fas fa-store-alt feature-icons"></i>
-                    </div>
-                    <h3 class="feature-text">Improved Lifetime value</h3>
-                    <p class="feature-about">
-                        Sell how your customers want to buy with infinite order and checkout flexibility.
+                       One Touch Purchase
+                        with infinite order and checkout flexibility.
                     </p>
                 </div>
             </div>
 
-            <div class="feature-description">
-                <h1 class="what">What can LOREM do for me?</h1>
+            <div class="feature-description" id="features">
+                <h1 class="what">What can E-Vendor do for me?</h1>
             </div>
             <div class="feature-container">
                 <div class="feature-list">
@@ -114,12 +119,12 @@
                 </div>
                 <div class="feature-display">
                     <h2 class="feature-text-head">
-                        Persona Specific Statement where are there is Describing Ideal Outcome from Using sticky.io feedbacks are givem.
+                        Contactless Vending
                     </h2>
                     <p class="feature-text-explain">
-                        We make sure your online business runs smoothly beyond the buy button, so you can captive consumers with next-level-experiences.We make sure your online business runs smoothly beyond the buy button, so you can captive consumers with next-level-experiences.
+                        Touchless vending , which reduces the chances of getting covid.
                     </p>
-                    <button onclick="ShowPopup()" class="bttn feature-get">Get Started</button>
+                     <div class="btn-cont1"><a href="/app"> <button class="bttn get-started2">Get Started</button></a></div>
                 </div>
             </div>
         </section>
@@ -133,7 +138,7 @@
                           Technology makes us better!
                       </h1>
                       <p class="tech-text">
-                          Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae vel consequatur ipsam possimus? Nesciunt soluta placeat dolorem ab iusto praesentium quos sed laboriosam maiores, cupiditate facilis ipsa veritatis eveniet. Enim!
+                          Technology is ever-changing. Digital technologies connect people across the globe has become easier and faster. From a time when people faced problems in delivering messages via mobile phones due to internet speed, even internet technology has come of age.
                       </p>
                 </div>
             </div>
@@ -158,6 +163,6 @@
                 </div>
             </div>
         </section>
-        <script src="index.js" async defer></script>
+        <script src="index2.js" async defer></script>
     </body>
 </html>
