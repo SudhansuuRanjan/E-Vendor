@@ -28,5 +28,11 @@ Thinking about this problem, we introduced the idea of this touchless vending ma
 A server is created on the `NodeMCU`. WebApp has been developed so that the user can put a request of his/her choice which is to be initialised
 by the `NodeMCU`.Then with the help of actuators the desired product is selected and ejected out of the vending machine.
 
+<br>
 
-##
+### Contributors:-
+
+- [Sudhanshu Ranjan](https://github.com/SudhansuuRanjan)
+- [Raj More](https://github.com/Raj82862)
+- [Harsh Kumar](https://github.com/Harshkumar62367)
+- [Rishabh Prakash](https://github.com/Rishabh-25-code)
