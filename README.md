@@ -4,6 +4,13 @@ E-Vendor is a vending machine that runs on `NodeMCU`.
 
 For buying any froduct from E-Vendor you have to use its WebApp and buy the product of your choice and pay online. 
 After the payment the vending machine serves your desired product to you.
+<br>
+<p align = "center">
+<img src="https://www.sitael.com/wp-content/uploads/2015/09/vending-machine_Small.jpg"  style="width:800px; 
+            height:450px; 
+            display: block;" />
+</p>
+
 
 ## Idea behind <b>E-Vendor</b>:
 
