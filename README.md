@@ -20,3 +20,7 @@ Thinking about this problem, we introduced the idea of this touchless vending ma
 - If the coins are sufficient enough to buy a certain item, the coins in your wallet will get deducted and the item will be given to the customer.
 - Once a product dispatch is succesfull, the vending machine will produce a beep sound. 
 
+### Technical Concept behind E-Vendor:
+
+A server is created on the `NodeMCU`. WebApp has been developed so that the user can put a request of his/her choice which is to be initialised
+by the `NodeMCU`.Then with the help of actuators the desired product is selected and ejected out of the vending machine.
