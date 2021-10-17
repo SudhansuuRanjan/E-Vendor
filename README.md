@@ -34,7 +34,7 @@ Thinking about this problem, we introduced the idea of this touchless vending ma
 <br>
 <p align = "center">
 <img src="https://github.com/Harshkumar62367/E-Vendor/blob/main/E_%20Vendor%20images/image%203.jpeg"  style="width:800px; 
-            height:450px; 
+            height:600px; 
             display: block;" />
 </p>
 <br>
