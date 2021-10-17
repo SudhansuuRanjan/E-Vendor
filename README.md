@@ -11,7 +11,7 @@ During the Covid Crisis around the world especially in India, the lockdown perio
 found with a huge rush which led to disobeying of "The Covid Guidelines".
 
 Thinking about this problem, we introduced the idea of this touchless vending machine which only uses digital currency for payment purposes thereby reducing the chances of making contact with material surfaces or any other human touches during any purchases.
-
+<br>
 
 ### How our E-Vendor works:
 
@@ -20,6 +20,7 @@ Thinking about this problem, we introduced the idea of this touchless vending ma
 - If the coins are sufficient enough to buy a certain item, the coins in your wallet will get deducted and the item will be given to the customer.
 - Once a product dispatch is succesfull, the vending machine will produce a beep sound. 
 
+<br>
 ### Technical Concept behind E-Vendor:
 
 A server is created on the `NodeMCU`. WebApp has been developed so that the user can put a request of his/her choice which is to be initialised
