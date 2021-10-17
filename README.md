@@ -38,6 +38,13 @@ Thinking about this problem, we introduced the idea of this touchless vending ma
             display: block;" />
 </p>
 <br>
+<br>
+<p align = "center">
+<img src="https://github.com/Harshkumar62367/E-Vendor/blob/main/E_%20Vendor%20images/image%202.jpeg"  style="width:800px; 
+            height:600px; 
+            display: block;" />
+</p>
+<br>
 
 ## Technical Concept behind E-Vendor:
 
