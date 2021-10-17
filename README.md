@@ -52,7 +52,7 @@ A server is created on the `NodeMCU`. WebApp has been developed so that the user
 by the `NodeMCU`.Then with the help of actuators the desired product is selected and ejected out of the vending machine.
 <br>
 <p align = "center">
-<img src="https://github.com/Harshkumar62367/E-Vendor/blob/main/E_%20Vendor%20images/image%203.jpeg"  style="width:800px; 
+<img src="https://github.com/Harshkumar62367/E-Vendor/blob/main/E_%20Vendor%20images/image%201.jpeg"  style="width:800px; 
             height:600px; 
             display: block;" />
 </p>
